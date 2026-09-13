@@ -1,3 +1,9 @@
+Compress-Archive `
+  -Path .\src,.\public,.\index.html,.\package.json,.\package-lock.json,.\vite.config.js,.\README.md,.\WHERE2KAPE_PLAN.md,.\.gitignore,.\.oxlintrc.json `
+  -DestinationPath "$HOME\Downloads\where2kape.zip" `
+  -Force
+
+
 # Where2Kape Project Plan
 
 ## Overview
